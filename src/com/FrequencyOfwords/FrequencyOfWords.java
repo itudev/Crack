@@ -22,7 +22,7 @@ public class FrequencyOfWords {
 		Integer frequency = 0;
 		if(table.containsKey(word)){
 			 frequency = table.get(word);
-			System.out.println("Frequency of word is: " + frequency);
+			System.out.println("Frequency of word is this: " + frequency);
 		}
 		return frequency;
 		
